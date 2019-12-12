@@ -1,0 +1,186 @@
+/* theme name:THIRDSITE*/
+*
+{
+	margin:0px;
+	padding:0px;
+	
+}
+.bg
+{
+	background:url(../img/1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.menubar
+{
+text-align:center;
+background:#00cc99;
+}
+.menubar ul
+{
+display:inline-flex;
+list-style:none;
+}
+.menubar ul li
+{
+width:120px;
+padding:15px;
+margin:15px;
+}
+.menubar ul li a
+{
+color:white;
+text-decoration:none;
+}
+.menubar ul li:hover
+{
+background-color:orange;
+border-radius:10px;
+}
+
+
+
+
+.submenu
+{
+	display:none;
+}
+.menubar ul li:hover .submenu
+{
+	display:block;
+	position:absolute;
+	background:black;
+	margin-top:15px;
+	margin-left:-15px;
+	border-radius:10px;
+}
+.menubar ul li:hover .submenu ul
+{
+display:block;	
+margin:10px;
+}
+.menubar ul li:hover .submenu ul li
+{
+ width:100px;
+ padding:10px;
+ border-bottom:1px solid red;
+}
+.row
+{
+	display:flex;
+	margin-left:15px;
+	margin-right:15px;
+	text-align:justify;
+}
+.col
+{
+	padding:15px;
+	margin:20px;
+	background-color:rgba(0,0,0,0.4);
+	box-sizing:border-box;
+	width:450px;
+	height:350px;
+}
+.col h1
+{
+text-align:center;
+color:white;
+text-decoration:underline;
+margin-bottom:10px;
+}
+.col p
+{
+color:white;
+}
+.ft
+{
+	background-color:black;
+	color:white;
+	width:100%;
+	height:50px;
+	text-align:center;
+}
+.gal
+{
+	text-align:center;
+}
+.gal img
+{
+	width:300px;
+	height:150px;
+	margin:30px;
+	box-shadow:10px 10px 5px grey;
+	filter:grayscale(100);
+	transition:1s;
+}
+.gal img:hover
+{
+	filter:grayscale(0);
+	transform:scale(1.2);
+}
+.cont{
+	width:450px;
+	height:500px;
+	text-align:center;
+	position:relative;
+	left:400px;
+	margin:10px;
+	padding:40px;
+	background-color:rgba(0,0,0,0.8);
+border-radius:5px;}
+.frm
+{
+	width:300px;
+	margin:15px;
+	padding:20px;
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	outline:none;
+	border:1px solid #5b80a4;
+	transition:0.5s;
+	border-radius:5px;
+	position:relative;
+}
+.frm:focus
+{
+	box-shadow:0px 0px 20px 6px #5b80a4;
+}
+.cont textarea
+{
+	height:100px;
+}
+.frm-btn
+{
+	float:right;
+	padding:15px 50px;
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	outline:none;
+	border-radius:30px;
+	border:1px solid #5b80a4;
+}
+.h2
+{
+color:#5b80a4;
+font-family:Ink Free;
+}	
+
+
+.bg1
+{
+	background:url(../img/115.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.log{
+	width:450px;
+	height:400px;
+	text-align:center;
+	position:relative;
+	left:400px;
+	margin:10px;
+	padding:40px;
+	background-color:rgba(0,0,0,0.4);
+border-radius:5px;}
